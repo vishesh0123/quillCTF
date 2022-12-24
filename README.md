@@ -1,13 +1,10 @@
-# Sample Hardhat Project
-
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+# quillCTF solutions
 
 Try running some of the following tasks:
+Make sure to install all required node modules and Create .env file with PROVIDER and PRIVATE_KEY
+
+1. To Execute Attck Script for RoadClosed :
 
 ```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
+  npx run scripts/RoadClosed.js --network goerli
 ```
