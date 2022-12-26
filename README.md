@@ -22,3 +22,9 @@ Make sure to install all required node modules and Create .env file with PROVIDE
 ```shell
   npx run scripts/Confidential.js
 ```
+
+4. To Execute attack script for safeNFT
+
+```shell
+  npx run scripts/safeNFT.js
+```
