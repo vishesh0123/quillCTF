@@ -16,3 +16,9 @@ Make sure to install all required node modules and Create .env file with PROVIDE
 
   npx hardhat test test/VIP_Bank.js --network hardhat
 ```
+
+3. Execute Script to find hash
+
+```shell
+  npx run scripts/Confidential.js
+```
