@@ -8,3 +8,11 @@ Make sure to install all required node modules and Create .env file with PROVIDE
 ```shell
   npx run scripts/RoadClosed.js --network goerli
 ```
+
+2. Tests for VIP_Bank
+
+```shell
+  npx hardhat node
+
+  npx hardhat test test/VIP_Bank.js --network hardhat
+```
