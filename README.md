@@ -28,3 +28,11 @@ Make sure to install all required node modules and Create .env file with PROVIDE
 ```shell
   npx run scripts/safeNFT.js
 ```
+
+5. Tests for D31eg4t3
+
+```shell
+  npx hardhat node
+
+  npx hardhat test test/D31eg4t3 --network hardhat
+```
